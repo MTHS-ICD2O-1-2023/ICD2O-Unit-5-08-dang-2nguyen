@@ -13,7 +13,7 @@ function checking() {
   while (true) {
 
     answer -= divided
-    steps += "-" + divided + "=" + answer + ''
+    steps +=  "-" + divided + "=" + answer + '<br>'
     counter++
 
     if(answer < divided) {
@@ -22,7 +22,4 @@ function checking() {
   }
   document.getElementById("result").innerHTML = steps
   document.getElementById("result2").innerHTML = "The answer is " + counter + " remain: " + answer
-
-  
-
 }
